@@ -90,6 +90,7 @@ namespace ProNatur_GmbH
             this.Controls.Add(this.progBarLoading);
             this.Controls.Add(this.pictureBox1);
             this.Name = "LoadingScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProNatur GmbH";
             this.Load += new System.EventHandler(this.LoadingScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

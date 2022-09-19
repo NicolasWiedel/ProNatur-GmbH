@@ -35,7 +35,10 @@ namespace ProNatur_GmbH
             {
                 loadingTimer.Stop();
 
-                // Finish loading
+                // Finish loading show new MainMenuScreen
+                MainMenuScreen mainMenuScreen = new MainMenuScreen();
+                mainMenuScreen.Show();
+                this.Hide();
             }
         }
     }
