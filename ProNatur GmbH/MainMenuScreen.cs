@@ -14,5 +14,12 @@ namespace ProNatur_GmbH
         {
             InitializeComponent();
         }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            ProductScreen productScreen = new ProductScreen();
+            productScreen.Show();
+            this.Hide();
+        }
     }
 }
