@@ -14,5 +14,25 @@ namespace ProNatur_GmbH
         {
             InitializeComponent();
         }
+
+        private void btnProdSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProdEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFieldsClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProdDelete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
