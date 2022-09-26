@@ -42,8 +42,8 @@ namespace ProNatur_GmbH
             this.btnProdEdit = new System.Windows.Forms.Button();
             this.btnFieldsClear = new System.Windows.Forms.Button();
             this.btnProdDelete = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.productsDGV = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -194,15 +194,15 @@ namespace ProNatur_GmbH
             this.btnProdDelete.UseVisualStyleBackColor = false;
             this.btnProdDelete.Click += new System.EventHandler(this.btnProdDelete_Click);
             // 
-            // dataGridView1
+            // productsDGV
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 203);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(774, 254);
-            this.dataGridView1.TabIndex = 13;
+            this.productsDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.productsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.productsDGV.Location = new System.Drawing.Point(13, 203);
+            this.productsDGV.Name = "productsDGV";
+            this.productsDGV.RowTemplate.Height = 25;
+            this.productsDGV.Size = new System.Drawing.Size(774, 254);
+            this.productsDGV.TabIndex = 13;
             // 
             // ProductScreen
             // 
@@ -210,7 +210,7 @@ namespace ProNatur_GmbH
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(799, 461);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.productsDGV);
             this.Controls.Add(this.btnProdDelete);
             this.Controls.Add(this.btnFieldsClear);
             this.Controls.Add(this.btnProdEdit);
@@ -228,7 +228,7 @@ namespace ProNatur_GmbH
             this.Name = "ProductScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produkte";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,6 +248,6 @@ namespace ProNatur_GmbH
         private System.Windows.Forms.Button btnProdEdit;
         private System.Windows.Forms.Button btnFieldsClear;
         private System.Windows.Forms.Button btnProdDelete;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView productsDGV;
     }
 }
