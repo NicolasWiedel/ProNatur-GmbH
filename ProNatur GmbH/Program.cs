@@ -17,8 +17,7 @@ namespace ProNatur_GmbH
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new LoadingScreen());
-            Application.Run(new ProductScreen());
+            Application.Run(new LoadingScreen());
         }
     }
 }
